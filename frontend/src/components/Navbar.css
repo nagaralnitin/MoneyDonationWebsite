@@ -1,0 +1,38 @@
+.navbar {
+    background-color: rgba(20, 7, 0, 0.89);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+  }
+  
+  .navbar .logo {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 1rem;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .navbar a:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar a:hover {
+    color: #86ace6;
+    transform: translateY(-3px);
+  }
+  

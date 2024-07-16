@@ -1,0 +1,22 @@
+.section, .form-section, .contact-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .section h2, .form-section h2, .contact-section h2 {
+    margin-bottom: 1rem;
+    color: rgba(20, 7, 0, 0.9); /* Updated color */
+    text-align: left; /* Align the titles to the left */
+    font-size: 2rem; /* Increase the font size */
+  }
+  
+  .section p, .form-section p, .contact-section p {
+    font-size: 1.1rem; /* Adjust the font size of paragraphs */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #555; /* Maintain the color */
+  }
+  

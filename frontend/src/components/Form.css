@@ -1,0 +1,91 @@
+/* Form.css */
+
+.form-section form,
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+form label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form select {
+  font-size: 1rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: rgba(20, 7, 0, 0.9);
+}
+
+form button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: rgba(20, 7, 0, 0.9);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: rgba(15, 6, 0, 0.9);
+}
+
+.contact-section form button {
+  background-color: rgba(20, 7, 0, 0.9);
+}
+
+.contact-section form button:hover {
+  background-color: rgba(15, 6, 0, 0.9);
+}
+
+@media (min-width: 768px) {
+  .section,
+  .form-section,
+  .contact-section {
+    padding: 4rem 4rem;
+  }
+}
+
+/* Styles for the "Show Total Donations" button and display */
+.total-donations-button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: rgba(20, 7, 0, 0.9);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.total-donations-button:hover {
+  background-color: rgba(15, 6, 0, 0.9);
+}
+
+.total-donations {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+}

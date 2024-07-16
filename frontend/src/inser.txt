@@ -1,0 +1,6 @@
+INSERT INTO NGO (ID, ADDRESS, EMAIL, MISSION, NAME, PHONE) VALUES
+(1, 'No. 72, 3rd Floor, 3rd Main Road, 1st & 2nd Stage, Yeshwantpur Industrial Suburb, Rajajinagar, Bangalore, Karnataka - 560022', 'info@akshayapatra.org', 'To feed the hungry, one child at a time.', 'Akshaya Patra Foundation', '08030143400'),
+(2, 'N.H. No. 8, Mahuvej, Taluka Mangrol, Dist. Surat, Gujarat - 394125', 'info@annakshetra.org', 'Eradicating hunger in Surat and beyond.', 'Annamrita Foundation', '02612733157'),
+(3, 'Old No. 21, New No. 55, 2nd Main Road, R.A. Puram, Chennai, Tamil Nadu - 600028', 'info@bhagavatilove.org', 'To provide free meals to the poor and needy.', 'Bhagavati Love Foundation', '04424939229'),
+(4, 'Sector 62, Near Fortis Hospital, Noida, Uttar Pradesh - 201301', 'info@noidafoodbank.org', 'Serving the underprivileged by providing nutritious meals.', 'Noida Food Bank', '01204350200'),
+(5, 'C/o ISKCON, Hare Krishna Land, Juhu, Mumbai, Maharashtra - 400049', 'info@mumbaimeal.org', 'Providing healthy meals to children and families in Mumbai.', 'Mumbai Meal Program', '02226206860');

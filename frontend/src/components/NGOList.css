@@ -1,0 +1,45 @@
+.ngo-list {
+  padding: 20px;
+  background-color: #ecf0f1;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.ngo-list h2 {
+  color: #2c3e50;
+}
+
+.ngo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ngo-list li {
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ngo-list li h3 {
+  margin: 0;
+  color: #2980b9;
+}
+
+.ngo-list li p {
+  margin: 5px 0;
+}
+
+.ngo-list li button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ngo-list li button:hover {
+  background-color: #3498db;
+}
